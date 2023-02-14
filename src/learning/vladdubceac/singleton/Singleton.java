@@ -8,7 +8,7 @@ public class Singleton {
     // an instance attribute
     private int data = 0;
 
-    public Singleton() {
+    private Singleton() {
     }
 
     public static Singleton getInstance(){
